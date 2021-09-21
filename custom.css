@@ -29,6 +29,10 @@ body {
     min-height: 100vh;
 }
 
+.h4 {
+    font-size: 1em;
+}
+
 p {
     font-size: 16px;
     line-height: 1.6;
@@ -69,8 +73,9 @@ button {
 .btn-primary {
     background-color: var(--Bright-blue);
     color: #fff;
-    padding: 10px;
+    padding: 10px 110px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .btn-primary:hover, .btn-change:hover{
@@ -90,8 +95,13 @@ button {
     background-color: #fff;
     margin: 20px;
     padding-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px hsla(288, 45%, 44%, 0.15);
+}
+
+.container img.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
 .container h1 {
@@ -100,20 +110,17 @@ button {
 }
 
 .container p.description {
-    padding: 0 30px;
+    padding: 0 100px;
 }
 
-.container img.hero {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-}
+
 
 .container .pricing {
     margin: 30px auto;
     padding: 10px;
     background-color: var(--Very-pale-blue);
     width: 90%;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
